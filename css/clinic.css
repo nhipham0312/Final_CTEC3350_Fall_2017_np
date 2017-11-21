@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/* CSS Document */
+.container {
+	display: flex;
+	flex-basis: 100%;
+	flex-direction: column;
+}
+/*=============STRUCTURE OF THE SERVICES==========================*/
+.service-wrap {
+	display: flex;
+	flex-basis: 100%;
+	flex-direction: column;
+}
+.service-container{
+	display: flex;
+	flex-basis: 100%;
+	justify-content: space-around;
+	flex-direction: row;}
+
+.ask {
+	flex-basis: 100%;
+	align-self: center;
+	padding: 2em 0;
+	flex-direction: column;
+}
+.ask button{
+
+	color: white;
+	padding: 1em 1.5em;
+	background-color:#1C3963 ;
+	font-size: 20px;
+	border-radius: 12px;
+
+}
+.ask button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+/*=============SERVICES TABLE===============*/
+.table{
+		flex-basis: 60%;
+}
+.table table{
+	width: 100%;
+}
+
+.service-table th{
+	background-color:#0064b1;
+	color: white;
+	font-size: 25px;
+	margin: 0 2em;
+	padding: 0.5em 1.5em;
+	font-weight: 500;
+}
+
+.service-table td{
+	font-weight: 500;
+	font-size: 20px;
+	padding: 1em;
+	text-align: center;
+}
+.table td:first-of-type{
+	text-align: left;
+}
+.service-table tr:nth-child(odd){
+	background-color:#e6dbbe;
+}
+
+.service-table tr:nth-child(even){
+	background-color:#e7f6fd;
+}
+/*====END======*/
+.left-item{
+	align-self: center;
+	flex-basis: 20%;
+}
+.left-item img{
+	width: 100%;
+}
+.right-item{
+	flex-basis: 20%;
+	align-self:flex-start;
+}
+.right-item img{
+	width: 100%;
+}
+
+/*=============TEAM MEMBERS===========*/
+.team-container{
+	display: flex;
+	flex-basis: 100%;
+	flex-direction: column;
+}
+.team-wrap{
+	display: flex;
+	flex-basis: 100%;
+	flex-direction: column;
+}
+.team-content{
+	display: flex;
+	flex-basis: 100%;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+/*EACH MEMBER*/
+.team1{
+	flex-basis: 30%;
+}
+
+.team1 img{
+	border-radius: 200px;
+	width: 70%;
+}
+
+.team1 p{
+	text-align: center;
+	font-size: 20px;
+}
+
+
+/*GROUP*/
+.group-wrap{
+	display: flex;
+	flex-basis: 100%;
+	flex-direction: column;
+}
+
+.group-content{
+	display: flex;
+	flex-basis: 100%;
+	justify-content: center;
+	flex-direction: row;
+	padding: 2em 0;
+}
+.group-content p{
+	text-align: center;
+	font-size:20px;
+}
+.teamgroup1{
+	flex-basis: 40%;
+/*	background-color: aqua;*/
+}
+.teamgroup2{
+	flex-basis: 40%;
+/*	background-color: violet;*/
+}
+
+.teamgroup1 img{
+	width: 96%;
+	border-radius: 12px;}
+
+.teamgroup2 img{
+	width: 100%;
+	border-radius: 12px;}
+
+/*=====BADGES=============*/
+.badge-title {
+	flex-basis: 100%;
+	align-self: center;
+	text-decoration: underline #3266AF;
+	padding: 0.25em 1em;
+}
+.badge-container{
+	display: flex;
+	flex-basis: 100%;
+	justify-content: center;
+
+}
+.badge-content {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.badge {
+	flex-basis: 20%;
+}
+.badge img{
+	width: 70%;
+}

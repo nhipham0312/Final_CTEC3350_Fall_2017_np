@@ -1,0 +1,238 @@
+/*
+  Author: Nhi Pham
+  Date: 11.02.2017
+  Purpose: Used to edit everything
+  Version:0.0.1
+*/
+
+/*Font for body*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+/*this is for other css*/
+@import url('index.css');
+@import url('shop.css');
+@import url('view-product.css');
+@import url('faq.css');
+@import url('clinic.css');
+@import url('blog.css');
+@import url('contact.css');
+
+
+body {
+  margin:0;
+  padding :0;
+  font-size: 15px;
+  color: #1C3963;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin-left: 2em;
+  margin-right:2em;
+
+
+	background-image: url('http://www.webdesigndev.com/wp-content/uploads/2015/02/Subtle-Light-Tile-Pattern-Vol2.jpg');
+	background-repeat: repeat;
+
+}
+
+  h1, h2, h3, h4{
+  	font-family:"Oswald", Arial, Helvetica, sans-serif;
+  	font-weight: 700;
+  	color:#1C3963;
+  }
+
+
+  h1{
+  	font-size: 	5.063rem;
+  	line-height: 3.5rem;
+  	color: #1F4170 ;
+  }
+  h2 {
+  	font-size: 3.375rem;
+  	line-height: 2rem;
+  	color: #E2752A;
+  }
+  h3{
+   	font-size: 2.25rem;
+  	line-height: 1.5rem;
+  	color:#3266AF;
+  }
+
+  h4{
+    font-size:1.5rem;
+    line-height:2.5rem;
+  	color:#1C3963;
+  }
+
+
+.home_navigation{
+display: flex; display: -webkit-flex;
+flex-basis: 100%;
+-webkit-flex-basis: 100%;
+flex-direction: column;
+-webkit-flex-direction: column;}
+
+
+/*SEARCH BAR*/
+
+.search_bar input[type=text] {
+	margin: 1em;
+	padding: 1em;
+	border: 15px thick #1C3963;
+    width: 130px;
+	box-shadow: 10 5 5 5 gray;
+}
+.search_bar {
+	align-self: flex-end;
+	max-width: 20%;
+	text-align: right;
+}
+/*================LOGO ==============*/
+  .center_logo{
+  display: flex; display: -webkit-flex;
+	flex-basis: 100%;
+  -webkit-flex-basis: 100%;
+	justify-content: center;
+  -webkit-justify-content: center;
+	padding-bottom: 5em;}
+
+/*==========NAVIGATION OF THE HOSPITAL======== */
+.nav-container{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+
+}
+  .navigation nav {
+list-style: none;
+display: flex; display: -webkit-flex;
+flex-basis: 50%;
+-webkit-flex-basis: 50%;
+flex-direction: row;
+-webkit-flex-direction:row;
+margin-bottom: 2em;
+}
+
+  .navigation ul{
+list-style: none;
+display: flex; display: -webkit-flex;
+width: 50vw;
+justify-content: center;
+
+-webkit-justify-content: space-between;
+
+}
+
+.navigation ul li a{
+	font-size: 25px;
+	color: #1F4170;
+	padding: 0.5em;
+	text-decoration: none;
+
+}
+
+.navigation ul a:hover{
+  background-color: #E2752A;
+  color:white;
+  border-radius: 5px;
+}
+/*THE BOTTOM LINE ON NAV */
+.bottom{
+	flex-basis: 100%;
+	justify-content: center;
+	align-self: center;
+	background-color: blue;
+}
+.bottom img {
+
+	width: 20%;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+/*THE TITLE FOR USER TO KNOW WHERE THEY'RE AT */
+.head-title h1{
+	flex-basis: 100%;
+	text-align: center;
+  margin-top:0;
+}
+
+.hr{
+	display: block;
+	width: 100%;
+	border-top: 0.5px solid lightgray;
+	margin-bottom: 2em;
+	margin-top: 0;
+}
+
+
+/*================FOOTER=================== */
+.footer_container{
+	display: flex;
+	flex-basis: 100%;
+	padding-top: 2em;
+}
+.footer_content{
+	border-top: 2px solid #1F4170;
+	display: flex;
+	flex-direction: row;
+	flex-basis: 100%;
+	justify-content: space-between;
+}
+
+.footer{
+	flex-basis: 20%;
+	margin-top: 1em;
+	padding-top: 1em;
+}
+.footer_content ul {
+	list-style-type: none;
+}
+.footer_content ul a{
+	text-decoration: none;
+	color: #1F4170;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+	box-shadow: 5 5 10 10 white;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/*Yelp */
+.fa-yelp{
+	background-color: firebrick;
+	color: white;
+}
+/*YouTube*/
+.fa-youtube{
+	background-color: #c4302b;
+	color: white;
+}
+
+/*Round shape for icons*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+}

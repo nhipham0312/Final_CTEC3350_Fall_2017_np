@@ -1,0 +1,26 @@
+/*TO EDIT CONTACT.HTML*/
+
+.contact-wrap{
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+}
+.contact-content{
+  display: flex;
+  flex-basis: 100%;
+  justify-content:center;
+}
+.button{
+  flex-basis: 30%;
+
+}
+.form{
+  flex-basis: 60%;
+  padding: 2em 0;
+}
+.form iframe{
+  width: 100%;
+}
+.button img{
+  width: 60%;
+}
